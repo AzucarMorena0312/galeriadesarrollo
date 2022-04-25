@@ -6,3 +6,18 @@
 div{
 	text-align: center;
 }
+
+header{
+	padding: 10px;
+    display: flex;
+}
+
+header .header_logo{
+    width: 30%;
+    height: 100%;
+}
+
+header .header_logo img{
+    width: 200px;
+    height: 100%;
+}
