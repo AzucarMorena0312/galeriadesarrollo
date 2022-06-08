@@ -20,11 +20,12 @@ img{
 }
 
 .btnNuevo{
-    background-color: blue;
-    color: #fff;
+    background-color: cyan;
+    color: black;
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
+   
 }
 
 main{
@@ -57,9 +58,9 @@ main{
 }
 
 .card h4{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-transform: capitalize;
-    color: #e91e63;
+    color: orange;
     font-size: 1.3rem;
     text-align: center;
 }
@@ -67,8 +68,8 @@ main{
 .card p{
     text-align: justify;
     line-height: 130%;
-    margin-bottom: 20px;
-    padding: 0 20px;
+    margin-bottom: 10px;
+    padding: 0 10px;
 }
 
 .card .botones{
@@ -87,12 +88,12 @@ main{
 
 .btn_yellow{
     color: #000;
-    background-color: gold;
+    background-color: orangered;
 }
 
 .btn_red{
     color: #fff;
-    background-color: #e91e63;
+    background-color: cyan;
 }
 
 /* Ventana Modal */
@@ -133,7 +134,7 @@ main{
 }
 
 .modal .cabecera_modal{
-    background-color: green;
+    background-color: cyan;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
@@ -171,7 +172,7 @@ main{
 }
 
 .modal .forma_modal form .btnCancelar{
-    background-color: skyblue;
+    background-color: cyan;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -187,7 +188,7 @@ main{
 
 .modal button{
     padding: 10px 30px;
-    background-color: yellow;
+    background-color: orange;
     color: #000;
     border: none;
     font-family: 'Montserrat', sans-serif;

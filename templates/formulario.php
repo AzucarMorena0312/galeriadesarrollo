@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/formulario.css">
 </head>
 <body>    
-    <header>
+    <header class="titulo">
         <h1>Registro de Imagenes</h1>
     </header>
     <main>
@@ -44,9 +44,8 @@
             </fieldset>
         </form>
     </main>
-    <footer>
-        Derechos Reservados &copy; - 2022
-    </footer>
     <script src="../js/insertar.js" type="module"></script> 
-</body>
-</html>
+
+<?php
+	include ("../basico/footer.php");
+?>

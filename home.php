@@ -2,7 +2,20 @@
 	include ("basico/cabecera.php");
 ?>
 
-    <div id="divNuevo"><button class="btnNuevo" id="btnNuevo">Ingresar Nueva imagen</button></div>
+    <div id="divNuevo">
+		<button class="btnNuevo" id="btnNuevo">Ingresar Nueva imagen</button>
+
+        <?php
+    	session_start();
+    	if(!isset($_SESSION['nombre'])){
+    	    header('location: ../index.php');
+    	}
+    	//echo "<h1>Bienvenido ". $_SESSION['nombre']." <h1>";
+    	echo "<button  class='btnNuevo'> <a href='templates/logout.php'> Cerrar Sesion  </a> </button>";
+	?>
+
+    </div>
+	
     <main>
     </main>
     <div class="modal_bg">
@@ -32,15 +45,6 @@
             </div>            
         </div>        
     </div>
-
-	<?php
-    	session_start();
-    	if(!isset($_SESSION['nombre'])){
-    	    header('location: ../index.php');
-    	}
-    	//echo "<h1>Bienvenido ". $_SESSION['nombre']." <h1>";
-    	echo "<a href='templates/logout.php'>Cerrar Sesion</a>";
-	?>
 
     <script src="../galeriadesarrollo/js/crud.js"></script>
 	

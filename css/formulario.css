@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header{
+	background-color: orange;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -16,8 +20,8 @@ body{
 }
 
 .btnNuevo{
-    background-color: blue;
-    color: #fff;
+    background-color: cyan;
+    color: orange;
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
@@ -57,9 +61,9 @@ input[type=text], input[type=number], input[type=file]{
 }
 
 input[type=submit]{
-    background-color: green;
+    background-color: black;
     color: white;
-    border: 1px solid #008000;
+    border: 1px solid yellow;
     font-size: 20px;
     margin: 20px auto;
     width: 50%;
@@ -67,8 +71,8 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: black;
-    border: 1px solid black;
+    background-color: orange;
+    border: 1px solid cyan;
 }
 
 .form-field.error input, .form-field.error textarea{
@@ -76,7 +80,7 @@ input[type=submit]:hover{
 }
 
 .form-field.success input, .form-field.success textarea{
-    border: 1px solid green; 
+    border: 1px solid orange; 
 }
 
 .form-field small {
